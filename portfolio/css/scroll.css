@@ -1,0 +1,43 @@
+.element {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .element.visible {
+    opacity: 1;
+  }
+  
+
+  #skills {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  #projects {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  #projects2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  /* Estilos para la sección de Contacto */
+  #contact {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+  }
+
+
+
+  section.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+  }
+  
+  section.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }

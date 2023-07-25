@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #e2bfbf;
+  margin: 0; /* Elimina los márgenes predeterminados */
+  padding: 0; /* Elimina el padding predeterminado */
+  background-image: url("../img/pexels-thiago-japyassu-9097374.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*nav */
+header {
+    background-color: #1e1f2a00;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 1.7rem 1rem;
+    
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.logo a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #000000;
+
+
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: .97rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+    padding: 1rem;
+    padding: 0.4rem 1rem;
+    box-shadow: #0b19b4;
+    text-shadow: 1px 1px 0px #000000;
+
+}
+
+nav a.active,
+nav a:hover {
+    background-color: #244D61;
+    color: #fff;
+    border-radius: 1rem;
+    transition: all.3s ease-in-out;
+}
+
+#click {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+/* Nav */
+
+section {
+    margin: 2rem 8.5rem;
+    ;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    
+}
+
+.main p {
+    margin-top: 1rem;
+    font-size: .98rem;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.7rem;
+}
+
+.social a {
+    color: #fff;
+    font-size: 1rem;
+    border: 1.6px solid #fff;
+    border-radius: 50%;
+    padding: .35rem;
+    text-align: center;
+    width: 26px;
+    text-shadow: 1px 1px 0px #000000;
+
+}
+
+.social a:hover {
+    color: #fff;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.main h1 span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #244D61;
+    text-shadow: 1px 1px 0px #000000;
+
+  }
+  
+  h1, p {
+    font-family: 'Poppins', sans-serif;
+    color: #244D61;
+    
+  }
+  
+  .social a {
+    color: #fff;
+  }
+  
+  .social a:hover {
+    color: #fff;
+    background-color: #f0f0f0;
+    transition: all .3s ease-in-out;
+  }
+  
+
+
+
+
+  
+  
+  
+  
+  
+  #dynamic-text {
+    position: relative;
+  }
+  
+  #dynamic-text::after {
+    content: "|";
+    animation: blinkCursor 1s infinite;
+  }
+  
+  @keyframes blinkCursor {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+  .show-cursor::after {
+    display: inline;
+  }
+  
+
+
+
+  
+  #animation {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  #dynamic-text {
+    font-size: 60px;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #000000;
+
+  }
+  
+
+
+
+
+
+  #mgb {
+    font-size: 70px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+  }
+  
+  
+
+
+
+
+h2 {
+  font-size: 48px; /* Ajusta el tamaño de fuente según sea necesario */
+  text-shadow: 1px 1px 0px #000000;
+
+}
+
+
+
+
+
+ p {
+  color: #e2bfbf; /* Cambia el color del texto de los elementos <p> dentro de la sección con el id "contact" */
+  text-shadow: 1px 1px 0px #000000;
+
+}
+
+
+
+#arrow{
+  margin-right: auto;
+}

@@ -1,0 +1,97 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-description {
+    color: #fffefe; /* Set the desired text color */
+    font-size: 10px; /* Adjust the font size as needed */
+    line-height: 1.10; /* Adjust the line height for readability */
+  }
+  
+  
+  .card-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .card-link:hover {
+    background-color: #555;
+  }
+  
+
+  .filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-btn {
+    border: none;
+    background-color: transparent;
+    color: #244D61;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-btn.active {
+    background-color: #244D61;
+    color: #fff;
+  }
+  
+  .filter-btn:hover {
+    background-color: #244D61;
+    color: #fff;
+  }
+  
+
+
+
+
+
+
+
+
+  
